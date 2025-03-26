@@ -97,6 +97,11 @@ public class ItemDto {
         this.unitPrice = unitPrice;
     }
 
+    @Override
+    public String toString() {
+        return "ItemDto{" + "itemCode=" + itemCode + ", description=" + description + ", packSize=" + packSize + ", qoh=" + qoh + ", unitPrice=" + unitPrice + '}';
+    }
+
     
     
     

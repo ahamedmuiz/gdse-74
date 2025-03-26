@@ -4,6 +4,8 @@
  */
 package edu.ijse.mvc.Main;
 
+import edu.ijse.mvc.Main.view.ItemView;
+
 /**
  *
  * @author ahamed
@@ -14,7 +16,7 @@ public class java {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hi");
+        new ItemView().setVisible(true);
         // TODO code application logic here
     }
     
